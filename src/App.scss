@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.header-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 25px;
+    .img-section {
+        max-width: 150px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+nav {
+    max-width: 400px;
+    width: 100%;
+    
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+        a {
+            font-size: 16px;
+            line-height: 19.36px;
+            color:#616364;
+            transition: 0.7s;
+            &:hover {
+                color: black;
+                font-size: 18px
+            }
+        }
+    }
+}
+
+.main-section {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 91px;
+    margin-left: 106px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    .tit-block {
+        span {
+            font-size: 14px;
+            line-height: 16.45px;
+            color: #A58054;
+        }
+        h4 {
+            max-width:535px;
+            width: 100%;
+            color: black;
+            font-size: 48px;
+            line-height: 63.6px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 26px;
+        }
+        p{
+            color: #646464; 
+            font-size: 14px;
+            line-height: 24px;
+            max-width: 503px;
+            width: 100%;
+        }
+
+        .icon-btn{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            .social-icons {
+                display: flex;
+                flex-direction: column;
+                margin-right: 46px;
+                grid-gap: 30px;
+            }
+            .btn {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+              button {
+                margin-top: 60px;
+                max-width: 185px;
+                width:100%;
+                background-color: #1B3544;
+                color: white;
+                border: none;
+                padding: 19px 58px;
+                font-size: 16px;
+                line-height: 24px;
+            }  
+            }
+        }
+    }
+    .cont-block {
+        display: flex;
+        flex-wrap: wrap;
+        .sofa-imgs {
+            margin-top: 50px;
+            margin-left: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center; 
+            grid-gap: 50px;
+            p {
+                max-width: 112px;
+                width: 100%;
+                color: #1B3544;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+    }
+    .img-cont {
+        position: relative;
+        .main-img {
+            position: absolute;
+        }
+    }
+    .vector {
+        position: relative;
+        .first-vect {
+            position: absolute;left: 40px;
+            bottom: -6px;
+        }
+    }
+}
+
+.footer-section {
+    display: flex;
+    height: 220px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: #1B3544;
+    padding: 41px ;
+    .footer-img {
+        position: relative;
+        bottom: 155px;
+    }
+    .footer-desc {
+        margin-left: 90px;
+        h5 {
+            max-width: 333px;
+            width: 100%;
+            font-size: 32px;
+            line-height: 42.4px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            margin-top: 17px;
+            max-width: 359px;
+            width: 100%;
+            color: white;
+            font-size: 12px;
+            line-height: 42.4px;
+        }
+    }
+    .footer-cont {
+        margin-left: 70px;
+        .first-txt {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        strong {
+            font-size: 30px;
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+        p {
+            font-size: 12px;
+        }
+        }
+        .users {
+            
+        }
+        .text-block {
+            margin-top: 66px;
+            max-width: 500px;
+            width: 100%;
+            display: flex;
+            .text {
+                color: white;
+                margin-left: 20px;
+                h6 {
+                    font-size: 14px;
+                }
+                p {
+                    margin-top: 8px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
