@@ -17,7 +17,7 @@ export default class Main extends Component {
         return (
             <div className='main-section'>
                     <div className='tit-block'>
-                        <span>100% Quality Guranty !!!!   !!   !!!!!!!</span>
+                        <span>100% Quality Guranty !!!!   ! !!!!!!   !!!!!!!</span>
                         <h4>Find Classy Furnitures For Your Comfort</h4>
                         <p>All the Lorem Ipsum generators on the Internet tend to predefined chunks  this the first true generator on the Internet. </p>
                         <div className='icon-btn'>
